@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Balan Table Summarizer",
+  "version": "1.0",
+  "description": "Adds summary rows to tables on Balan client page",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://clientes.*.com/app/mi-cartera"],
+      "js": ["content.js"]
+    }
+  ]
+}
