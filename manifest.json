@@ -6,7 +6,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://clientes.*.com/app/mi-cartera"],
+      "matches": ["https://clientes.balanz.com/app/mi-cartera"],
       "js": ["content.js"]
     }
   ]
